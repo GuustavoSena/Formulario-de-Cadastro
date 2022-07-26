@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <script src="https://kit.fontawesome.com/3ca567be46.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <main class="principal">
+    <div class="bem-vindo__card">
+
+      <div class="bem-vindo__header">
+        <p class="seta__bem-vindo">&#10149;</p>
+        <h1 class="mensagem__bem-vindo">Bem vindo!</h1>
+        <h2 class="frase__bem-vindo">Entre na sua conta</h2>
+      </div>
+
+      <form>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" class="input-padrao" required>
+
+        <div class="linha-lembre">
+          <label class="checkbox"><input type="checkbox" checked>Lembre-se de mim?</label>
+        </div>
+
+        <div class="crie-conta__footer">
+          <input type="submit" value="Entrar" class="enviar">
+
+      </form>
+
+      <a class="esqueci" href="#">Esqueceu a senha?</a>
+
+
+    </div>
+
+    </div>
+
+    <div class="crie-conta__card">
+
+      <div class="crie-conta__header">
+        <i class="fa-solid fa-user" aria-hidden="true"></i>
+        <h1 class="frase__crie-conta">Crie sua conta!</h1>
+      </div>
+      <form>
+
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="senha-crie">Senha</label>
+        <input type="password" id="senha-crie" class="input-padrao" required>
+
+        <div class="crie-conta__footer">
+          <input type="submit" value="Cadastrar-se" class="enviar">
+
+      </form>
+
+      <div class="footer-crie">
+        <p class="crie__redes-sociais">Ou crie sua conta usando as redes sociais</p>
+      </div>
+
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>

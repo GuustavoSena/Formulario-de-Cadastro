@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    height: 100vh;
+    background: linear-gradient(#4b4c4d, #FFFFFF);
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bem-vindo__card {
+    background: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+    display: grid;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 8px 8px #888888;
+}
+
+.bem-vindo__header {
+    display: block;
+    margin: 32px auto;
+    position: relative;
+    bottom: 20px;
+}
+
+.seta__bem-vindo {
+    font-size: 60px;
+    text-align: center;
+    color: #182fb1;
+}
+
+.mensagem__bem-vindo {
+    font-size: 40px;
+    text-align: center;
+    color: #1d1d1d;
+    font-weight: bolder;
+}
+
+
+.frase__bem-vindo {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.frase__crie-conta {
+    font-size: 40px;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+
+#email {
+    margin-bottom: 30px;
+}
+
+#senha-crie {
+    margin-bottom: 50px;
+}
+
+#senha {
+    margin-bottom: 20px;
+}
+
+.bem-vindo__footer {
+    display: block;
+    margin: 32px auto;
+}
+
+.crie-conta__card {
+    height: 700px;
+    width: 600px;
+    background: linear-gradient(90deg, #182fb1, #0995c0);
+    border-radius: 10px;
+    display: grid;
+    box-sizing: border-box;
+    box-shadow: -3px 6px 8px 8px #505050;
+    z-index: 1;
+    position: relative;
+    right: 10px;
+}
+
+.input-padrao {
+    display: block;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e9e6e6;
+}
+
+.esqueci {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.crie-conta__header {
+    display: block;
+    margin: 32px auto 110px auto;
+
+}
+
+i {
+    font-size: 50px;
+    position: relative;
+    left: 120px;
+}
+
+.crie-conta__card .input-padrao {
+    padding: 10px 130px;
+}
+
+#nomesobrenome {
+    margin-bottom: 30px;
+}
+
+.crie-conta__footer {
+    display: block;
+    margin: 32px auto;
+}
+
+.enviar {
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    left: 90px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #0995c0;
+    transform: scale(1.2);
+}
+
+.bem-vindo__card .enviar {
+    box-shadow: 1px 5px 12px 1px #888888;
+    background: #182fb1;
+    position: relative;
+    left: 75px;
+}
+
+
+form {
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+}
+
+.footer-crie {
+    margin-top: 60px;
+    font-size: 20px;
+    border-top: 1px solid #ffffff;
+    padding: 10px 20px;
+}
